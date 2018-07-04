@@ -6,8 +6,8 @@
 
 <?php
 
-$nome = $_GET["uname"];
-$senha = $_GET["psw"];
+$nome = $_POST["uname"];
+$senha = $_POST["psw"];
 
 if (($nome =="admin")&&($senha == "123")) {
 	echo "Logado";
