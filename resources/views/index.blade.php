@@ -1,6 +1,6 @@
 @extends('layout.base')
 
-@section('conteudo')
+@section('index')
 
 
 <div class="slides">

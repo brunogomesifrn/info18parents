@@ -101,7 +101,8 @@
 </div>
 
 
-@yield('conteudo')
+@yield('index')
+
 
 <div class="foot divao">
 	<footer align="center">
