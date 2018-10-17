@@ -56,13 +56,13 @@
 		<nav>
 				<ul>  
 		  
-		<li class ="menu"><a href="index.html">Home</a> </li>  
-		<li class ="menu"><a href="Cadastro/Cad.html">Cadastro</a> </li>
-		<li class ="menu"><a href="Dados Pessoais/Dados Pessoais.html">Dados Pessoais</a> </li> 
-		<li class="menu"><a href="Pais/pais.html">Pais</a></li>   
-		<li class ="menu"><a href="Contato/contato.html">Contatos</a></li>  
-		<li class ="menu"><a href="Sobre/sobre.html">Sobre</a></li>
-		<li class="menu" id="dmenu"><a href="Carrinho/Carrinho.html">Carrinho</a></li> 
+		<li class ="menu"><a href="/">Home</a> </li>  
+		<li class ="menu"><a href="/cadastro">Cadastro</a> </li>
+		<li class ="menu"><a href="/pessoais">Dados Pessoais</a> </li> 
+		<li class="menu"><a href="/pais">Pais</a></li>   
+		<li class ="menu"><a href="/contato">Contatos</a></li>  
+		<li class ="menu"><a href="/sobre">Sobre</a></li>
+		<li class="menu" id="dmenu"><a href="/carrinho">Carrinho</a></li> 
 		<li class="menu" id="dmenu"><a id="ft" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</a></li>
 
 

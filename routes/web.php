@@ -14,4 +14,21 @@
 Route::get('/', function () {
     return view('index');
 });
-
+Route::get('/cadastro', function () {
+    return view('index');
+});
+Route::get('/pessoais', function () {
+    return view('index');
+});
+Route::get('/sobre', function () {
+    return view('index');
+});
+Route::get('/contato', function () {
+    return view('index');
+});
+Route::get('/pais', function () {
+    return view('index');
+});
+Route::get('/carrinho', function () {
+    return view('index');
+});
