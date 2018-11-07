@@ -15,20 +15,20 @@ Route::get('/', function () {
     return view('index');
 });
 Route::get('/cadastro', function () {
-    return view('index');
+    return view('cadastro');
 });
 Route::get('/pessoais', function () {
-    return view('index');
+    return view('pessoais');
 });
 Route::get('/sobre', function () {
-    return view('index');
+    return view('sobre');
 });
 Route::get('/contato', function () {
-    return view('index');
+    return view('contato');
 });
 Route::get('/pais', function () {
-    return view('index');
+    return view('pais');
 });
 Route::get('/carrinho', function () {
-    return view('index');
+    return view('carrinho');
 });

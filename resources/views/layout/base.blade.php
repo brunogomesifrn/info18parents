@@ -102,12 +102,13 @@
 
 
 @yield('index')
+@yield('pais')
 
 
 <div class="foot divao">
 	<footer align="center">
 		
-		<p id="ft" align="center">Feito por Júlio César; José Daniel e Gabriel Barroso. 
+		<p id="ft" align="center">Feito por Júlio César; José Daniel; Gabriel Barroso e Big Pedro. 
 		© Copyright 2017-2018 Broderiz's - All Rights Reserved - Ilegal</p>
 
 	</footer>
