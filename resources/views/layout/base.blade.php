@@ -102,7 +102,12 @@
 
 
 @yield('index')
+@yield('cadastro')
+@yield('pessoais')
 @yield('pais')
+@yield('contatos')
+@yield('sobre')
+@yield('carrinho')
 
 
 <div class="foot divao">

@@ -34,7 +34,7 @@
 
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-news-container flex-order-1">
                                 <h2 class="tm-news-title dark-gray-text">The Rock(Lira)</h2>
-                                <p class="tm-news-text">Um pai individual para uma pessoa só que atende do domingo pro sábado.</p>
+                                <p class="tm-news-text">Um pai individual para uma pessoa e atende até do domingo pro sábado.</p>
                               
                             </div>
                         </div>
@@ -47,7 +47,7 @@
 
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-news-container">
                                 <h2 class="tm-news-title dark-gray-text">Virtuosa Doutora dos Anjos</h2>
-                                <p class="tm-news-text"><a rel="nofollow" href="http://unsplash.com" target="_parent"></a>Mãe muito amiga, estando presentequase todo momento com você.</p>
+                                <p class="tm-news-text"><a rel="nofollow" href="http://unsplash.com" target="_parent"></a>Mãe muito amiga, estando presente quase todo momento com você. Uma verdadeira mulher de Peito!</p>
                                 
                             </div>
                         </div>
