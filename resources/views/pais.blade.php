@@ -1,6 +1,6 @@
 @extends('layout.base')
 
-@section('pais')
+@section('conteudo')
 
 <div class="divao" >
 			<h2 align="center">Equipe de pais</h2>

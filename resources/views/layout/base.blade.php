@@ -17,6 +17,8 @@
 	<link rel="stylesheet" type="text/css" href="{{asset('css/templatemo-style.css')}}">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<meta name="csrf-token" content="{{ csrf_token() }}" >
 	
                                        <!-- Templatemo style -->
 
@@ -101,13 +103,8 @@
 </div>
 
 
-@yield('index')
-@yield('cadastro')
-@yield('pessoais')
-@yield('pais')
-@yield('contatos')
-@yield('sobre')
-@yield('carrinho')
+@yield('conteudo')
+
 
 
 <div class="foot divao">

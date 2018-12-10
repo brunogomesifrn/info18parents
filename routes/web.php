@@ -32,3 +32,27 @@ Route::get('/pais', function () {
 Route::get('/carrinho', function () {
     return view('carrinho');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::get('/perfil', function () {
+    return view('perfil');
+});
+
+Route::get('/cidades', 'CidadeControlador@index');
+Route::get('/cidades_cadastrar', 'CidadeControlador@create');
+Route::post('/cidades_salvar', 'CidadeControlador@store');
+Route::get('/cidades_remover/{id}', 'CidadeControlador@destroy');
+Route::get('/cidades_editar/{id}', 'CidadeControlador@edit');
+Route::post('/cidades_atualizar/{id}', 'CidadeControlador@update');
+
+
+Route::get('/servicos', 'ServicoControlador@index');
+Route::get('/servicos_cadastrar', 'ServicoControlador@create');
+Route::post('/servicos_salvar', 'ServicoControlador@store');
+Route::get('/servicos_remover/{id}', 'ServicoControlador@destroy');
+Route::get('/servicos_editar/{id}', 'ServicoControlador@edit');
+Route::post('/servicos_atualizar/{id}', 'ServicoControlador@update');
