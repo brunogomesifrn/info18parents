@@ -56,3 +56,10 @@ Route::post('/servicos_salvar', 'ServicoControlador@store');
 Route::get('/servicos_remover/{id}', 'ServicoControlador@destroy');
 Route::get('/servicos_editar/{id}', 'ServicoControlador@edit');
 Route::post('/servicos_atualizar/{id}', 'ServicoControlador@update');
+
+Route::get('/gerenciar_pais', 'PaiControlador@index');
+Route::get('/pais_cadastrar', 'PaiControlador@create');
+Route::post('/pais_salvar', 'PaiControlador@store');
+Route::get('/pais_remover/{id}', 'PaiControlador@destroy');
+Route::get('/pais_editar/{id}', 'PaiControlador@edit');
+Route::post('/pais_atualizar/{id}', 'PaiControlador@update');
