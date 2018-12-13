@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Pai;
+use App\Cidade;
 
 class PaiControlador extends Controller
 {
@@ -24,8 +25,9 @@ class PaiControlador extends Controller
      * @return \Illuminate\Http\Response
      */
     public function create()
-    {
-        return view('pais_cadastro');
+    {  
+        $cidades = Cidade::all();
+        return view('pais_cadastro', compact('cidades'));
     }
 
     /**
@@ -42,6 +44,7 @@ class PaiControlador extends Controller
         $email = $request->input('email');
         $telefone = $request->input('telefone');
         $crp = $request->input('crp');
+        $id_cidade = $request->input('cidade');
 
 
 
@@ -53,6 +56,8 @@ class PaiControlador extends Controller
         $pai->email = $email;
         $pai->telefone = $telefone;
         $pai->crp = $crp;
+        $pai->id_cidade = $id_cidade;
+        $pai->id_user = 1;
 
 
         $pai->save();

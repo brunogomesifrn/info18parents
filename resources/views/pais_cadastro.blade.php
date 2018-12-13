@@ -20,6 +20,11 @@
 	<p>Email do Pai: <input type="text" name="email"></p>
 	<p>Telefone do Pai: <input type="text" name="telefone"></p>
 	<p>CRP do Pai: <input type="text" name="crp"></p>
+	<p>Cidade de atendimento: <select name="cidade">
+		@foreach($cidades as $c)
+			<option value="{{$c->id}}">{{$c->nome}}</option>
+		@endforeach
+	</select></p>
 	<input type="submit" value="Cadastrar">
 @else
 	<p>Nome do Pai: <input type="text" name="nome" value="{{$pai->nome}}"></p>
