@@ -20,6 +20,9 @@
 	<p>Email do Pai: <input type="text" name="email"></p>
 	<p>Telefone do Pai: <input type="text" name="telefone"></p>
 	<p>CRP do Pai: <input type="text" name="crp"></p>
+	<p>Cidade: <select name="cidade">
+  	<option value="go" selected>Goianinha</option>
+	</select></p>
 	<input type="submit" value="Cadastrar">
 @else
 	<p>Nome do Pai: <input type="text" name="nome" value="{{$pai->nome}}"></p>
