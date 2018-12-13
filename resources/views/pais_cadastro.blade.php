@@ -18,15 +18,18 @@
 	<form action="" method="post">
 	<div class="row">
 	<div class="col-md-6">
+
 	<div style="text-align: right;"><p>Nome do Pai <input type="text" name="nome"></p> <div style="text-align: right;"><p>CPF do Pai: <input type="text" name="cpf"></p>
 	</div> </div> 
 	
 	<div style="text-align: right;"><p>RG do Pai: <input type="text" name="rg"></p> <div style="text-align: right;"> <p>Email do Pai: <input type="text" name="email"></p>
 	</div> </div> 
-	<p>Telefone do Pai: <input type="text" name="telefone"></p>
-	<p>CRP do Pai: <input type="text" name="crp"></p>
 
-	<p>Cidade de atendimento: <select name="cidade">
+	<div style="text-align: right;"><p>Telefone do Pai: <input type="text" name="telefone"></p> <div style="text-align: right;"> <p>CRP do Pai: <input type="text" name="crp"></p>
+	</div> </div> 
+
+	<div style="text-align: center;"><p>Cidade de atendimento: <select name="cidade"></div> 
+
 		@foreach($cidades as $c)
 			<option value="{{$c->id}}">{{$c->nome}}</option>
 		@endforeach
