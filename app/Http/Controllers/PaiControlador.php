@@ -85,7 +85,8 @@ class PaiControlador extends Controller
     public function edit($id)
     {
         $pai = Pai::find($id);
-        return view('pais_cadastro', compact('pai'));
+        $cidades = Cidade::all();
+        return view('pais_cadastro', compact('pai', 'cidades'));
     }
 
     /**
@@ -99,7 +100,7 @@ class PaiControlador extends Controller
     {
         $nome = $request->input('nome');
 
-        $paipai = Pai::find($id);
+        $pai = Pai::find($id);
         $pai->nome = $nome;
         $pai->save();
 
