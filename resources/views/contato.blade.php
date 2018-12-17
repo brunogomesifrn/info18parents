@@ -8,7 +8,7 @@
  <div class="col-md-3 col-sm-4 col-xs-12">
                       <div class="single-team-member">
                         <div class="team-img">
-                            <a href="#"><img src="fotosperfil/Pedro.jpeg" height="300" width="260" alt=""></a>
+                            <a href="#"><img src="fotosperfil/Pedro.jpeg" height="300" width="300" alt=""></a>
                             <div class="team-social-icon text-center">
                               <ul>
                                 <li>
@@ -16,7 +16,7 @@
                                 </li>
                                 
                                 <li>
-                                    <a href="https://www.instagram.com/freitas_pl/"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
                                 </li>
                                 <li>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
@@ -25,7 +25,9 @@
                             </div>
                             <div class="team-content text-center">
                               <h5><strong>Pedro Freitas</strong></h5>
-            <span> IFRN Campus Canguaretama</span>
+            <span><p>Técnico em Informática</p>
+                  <p>IFRN: Campus Canguaretma</p>
+                  <p>Email: pedroluis140@gmail.com</p>  </span>
                             </div>
                         </div>
                       </div>
@@ -36,7 +38,7 @@
  <div class="col-md-3 col-sm-4 col-xs-12">
                       <div class="single-team-member">
                         <div class="team-img">
-                            <a href="#"><img src="fotosperfil/Pedro.jpeg" height="300" width="260" alt=""></a>
+                            <a href="#"><img src="fotosperfil/barroso.jpg" height="300" width="300" alt=""></a>
                             <div class="team-social-icon text-center">
                               <ul>
                                 <li>
@@ -53,7 +55,9 @@
                             </div>
                             <div class="team-content text-center">
                               <h5><strong>Gabriel Barroso</strong></h5>
-            <span> IFRN Campus Canguaretama</span>
+           <span><p>Técnico em Informática</p>
+                  <p>IFRN: Campus Canguaretma</p>
+                  <p>Email: </p>  </span>
                             </div>
                         </div>
                       </div>
@@ -64,7 +68,7 @@
  <div class="col-md-3 col-sm-4 col-xs-12">
                       <div class="single-team-member">
                         <div class="team-img">
-                            <a href="#"><img src="fotosperfil/Pedro.jpeg" height="300" width="260" alt=""></a>
+                            <a href="#"><img src="fotosperfil/daniel.jpg" height="300" width="300" alt=""></a>
                             <div class="team-social-icon text-center">
                               <ul>
                                 <li>
@@ -81,7 +85,9 @@
                             </div>
                             <div class="team-content text-center">
                               <h5><strong>José Daniel</strong></h5>
-            <span>  IFRN Campus Canguaretama</span>
+           <span><p>Técnico em Informática</p>
+                  <p>IFRN: Campus Canguaretma</p>
+                  <p>Email: </p>  </span>
                             </div>
                         </div>
                       </div>
@@ -92,7 +98,7 @@
  <div class="col-md-3 col-sm-4 col-xs-12">
                       <div class="single-team-member">
                         <div class="team-img">
-                            <a href="#"><img src="fotosperfil/Pedro.jpeg" height="300" width="260" alt=""></a>
+                            <a href="#"><img src="fotosperfil/julio.jpg" height="300" width="300" alt=""></a>
                             <div class="team-social-icon text-center">
                               <ul>
                                 <li>
@@ -109,7 +115,9 @@
                             </div>
                             <div class="team-content text-center">
                               <h5><strong>Júlio César</strong></h5>
-            <span>  IFRN Campus Canguaretama</span>
+            <span><p>Técnico em Informática</p>
+                  <p>IFRN: Campus Canguaretma</p>
+                  <p>Email: </p>  </span>
             
                             </div>
                         </div>

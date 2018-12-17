@@ -2,7 +2,7 @@
 
 @section('conteudo')
 
-<h1>Serviços</h1>
+<h1 h1 align="center">Serviços</h1>
 
 <p><a href="/servicos_cadastrar">Cadastrar novo serviço</a></p>
 
