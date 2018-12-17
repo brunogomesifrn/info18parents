@@ -80,7 +80,7 @@
 		</nav>
 		
 
-<div id="id01" class="modal">
+<!--<div id="id01" class="modal">
   
   <form class="modal-content animate" action="../logingeral.php" method="post">
     <div class="imgcontainer nego">
@@ -107,7 +107,7 @@
       <span class="psw">Forgot <a href="#">password?</a></span>
     </div>
   </form>
-</div>
+</div>-->
 
 
 @yield('conteudo')
