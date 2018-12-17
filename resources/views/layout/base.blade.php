@@ -65,7 +65,14 @@
 		<li class ="menu"><a href="/contato">Contatos</a></li>  
 		<li class ="menu"><a href="/sobre">Sobre</a></li>
 		<li class="menu" id="dmenu"><a href="/carrinho">Carrinho</a></li> 
-		<li class="menu" id="dmenu"><a id="ft" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</a></li>
+		
+		@guest
+		<li class="menu" id="dmenu"><a href="/login">Login</a></li>
+		@endguest
+
+		@auth
+		<li class="menu" id="dmenu"><a href="/logout">Logout</a></li>
+		@endauth
 
 
 		</div>
