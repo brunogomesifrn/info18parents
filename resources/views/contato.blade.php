@@ -26,8 +26,8 @@
                             <div class="team-content text-center">
                               <h5><strong>Pedro Freitas</strong></h5>
             <span><p>Técnico em Informática</p>
-                  <p>IFRN: Campus Canguaretma</p>
-                  <p>Email: pedroluis140@gmail.com</p>  </span>
+                  <p>IFRN: Campus Canguaretama</p>
+                  <p>E-mail: pedroluis140@gmail.com</p>  </span>
                             </div>
                         </div>
                       </div>
@@ -46,7 +46,7 @@
                                 </li>
                                 
                                 <li>
-                                    <a href="https://www.instagram.com/freitas_pl/"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
                                 </li>
                                 <li>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
@@ -56,8 +56,8 @@
                             <div class="team-content text-center">
                               <h5><strong>Gabriel Barroso</strong></h5>
            <span><p>Técnico em Informática</p>
-                  <p>IFRN: Campus Canguaretma</p>
-                  <p>Email: </p>  </span>
+                  <p>IFRN: Campus Canguaretama</p>
+                  <p>E-mail: gabrielbarrosofg@yahoo.com.br </p>  </span>
                             </div>
                         </div>
                       </div>
@@ -76,7 +76,7 @@
                                 </li>
                                 
                                 <li>
-                                    <a href="https://www.instagram.com/freitas_pl/"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
                                 </li>
                                 <li>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
@@ -86,8 +86,8 @@
                             <div class="team-content text-center">
                               <h5><strong>José Daniel</strong></h5>
            <span><p>Técnico em Informática</p>
-                  <p>IFRN: Campus Canguaretma</p>
-                  <p>Email: </p>  </span>
+                  <p>IFRN: Campus Canguaretama</p>
+                  <p>E-mail: josedanielnsilva3@gmail.com</p>  </span>
                             </div>
                         </div>
                       </div>
@@ -106,7 +106,7 @@
                                 </li>
                                 
                                 <li>
-                                    <a href="https://www.instagram.com/freitas_pl/"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
                                 </li>
                                 <li>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
@@ -116,8 +116,8 @@
                             <div class="team-content text-center">
                               <h5><strong>Júlio César</strong></h5>
             <span><p>Técnico em Informática</p>
-                  <p>IFRN: Campus Canguaretma</p>
-                  <p>Email: </p>  </span>
+                  <p>IFRN: Campus Canguaretama</p>
+                  <p>E-mail: </p>  </span>
             
                             </div>
                         </div>
