@@ -8,7 +8,7 @@
  <div class="col-md-3 col-sm-4 col-xs-12">
                       <div class="single-team-member">
                         <div class="team-img">
-                            <a href="#"><img src="fotosperfil/Pedro.jpeg" height="300" width="300" alt=""></a>
+                            <a href="https://www.instagram.com/p/BiNbYlvBvN2/"><img src="fotosperfil/Pedro.jpeg" height="300" width="300" alt=""></a>
                             <div class="team-social-icon text-center">
                               <ul>
                                 <li>
@@ -24,7 +24,7 @@
                               </ul>
                             </div>
                             <div class="team-content text-center">
-                              <h5><strong>Pedro Freitas</strong></h5>
+                              <a href="https://www.instagram.com/p/BiNbYlvBvN2/"><h5><strong>Pedro Freitas</strong></h5></a>
             <span><p>Técnico em Informática</p>
                   <p>IFRN: Campus Canguaretama</p>
                   <p>E-mail: pedroluis140@gmail.com</p>  </span>
@@ -38,7 +38,7 @@
  <div class="col-md-3 col-sm-4 col-xs-12">
                       <div class="single-team-member">
                         <div class="team-img">
-                            <a href="#"><img src="fotosperfil/barroso.jpg" height="300" width="300" alt=""></a>
+                            <a href="https://www.instagram.com/eulesmoura10/"><img src="fotosperfil/barroso.jpg" height="300" width="300" alt=""></a>
                             <div class="team-social-icon text-center">
                               <ul>
                                 <li>
@@ -54,7 +54,7 @@
                               </ul>
                             </div>
                             <div class="team-content text-center">
-                              <h5><strong>Gabriel Barroso</strong></h5>
+                              <a href="https://www.instagram.com/eulesmoura10/"><h5><strong>Gabriel Barroso</strong></h5></a>
            <span><p>Técnico em Informática</p>
                   <p>IFRN: Campus Canguaretama</p>
                   <p>E-mail: gabrielbarrosofg@yahoo.com.br </p>  </span>
@@ -68,7 +68,7 @@
  <div class="col-md-3 col-sm-4 col-xs-12">
                       <div class="single-team-member">
                         <div class="team-img">
-                            <a href="#"><img src="fotosperfil/daniel.jpg" height="300" width="300" alt=""></a>
+                            <a href="https://www.instagram.com/pedro_azevedo04/"><img src="fotosperfil/daniel.jpg" height="300" width="300" alt=""></a>
                             <div class="team-social-icon text-center">
                               <ul>
                                 <li>
@@ -84,7 +84,7 @@
                               </ul>
                             </div>
                             <div class="team-content text-center">
-                              <h5><strong>José Daniel</strong></h5>
+                              <a href="https://www.instagram.com/pedro_azevedo04/"><h5><strong>José Daniel</strong></h5></a>
            <span><p>Técnico em Informática</p>
                   <p>IFRN: Campus Canguaretama</p>
                   <p>E-mail: josedanielnsilva3@gmail.com</p>  </span>
