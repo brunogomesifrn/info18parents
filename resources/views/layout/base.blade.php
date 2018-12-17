@@ -107,7 +107,7 @@
 
 
 
-<div class="foot divao">
+<div class="foot divao" style="position: fixed; bottom: 0; width: 100%;">
 	<footer align="center">
 		
 		<p id="ft" align="center">Feito por Júlio César; José Daniel; Gabriel Barroso e Big Pedro. 
