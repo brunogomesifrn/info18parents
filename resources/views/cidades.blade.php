@@ -8,9 +8,13 @@
 
 	<div class="col-md-3"></div>
 
-	<div class="col-md-6">
+	<div class="col-md-6" align="center">
 
-<p  align="center"><a input class="bnt" name="" type="submit" href="/cidades_cadastrar">Cadastrar nova cidade</a></p>
+		<a href="/pais_cadastrar"><button type="button" class="buton btn-primary btn">
+                                {{ __('Cadastrar novo Pai') }}
+                            </button></a>
+
+<!--<p  align="center"><a input class="bnt" name="" type="submit" href="/cidades_cadastrar">Cadastrar nova cidade</a></p>-->
 
 <h3 align="center">Cidades Cadastradas:</h3>
 @foreach($cidades as $c)
