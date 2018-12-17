@@ -34,24 +34,12 @@
 		</div>
 		<div class="col-md-4" align="center">
 
-			<img src="{{asset('img/logo nova.PNG')}}" width="250" height="200">
+			<a href="https://www.xvideos.com/"><img src="{{asset('img/logo nova.PNG')}}" width="250" height="200"></a>
 			
 			
 
 		</div>
-		<div class="col-md-4">
-
-			</br>
-			</br>
-			</br>
-			</br>
-			</br>
-			
-			<p align="right" id="pe">Pesquise: <input class="pesq" type="text" name="pesquisa">
-			<input class="botao" type="button" name="pesquisar"></p>
-
-		</div>
-		</div>
+			</div>
 		
 
 		<div class="nav-custom-style">
@@ -59,10 +47,15 @@
 				<ul>  
 		  
 		<li class ="menu"><a href="/">Home</a> </li>  
+		@guest
 		<li class ="menu"><a href="/register">Cadastro</a> </li>
+		@endguest
 		<li class ="menu"><a href="/pessoais">Dados Pessoais</a> </li> 
-		<li class="menu"><a href="/pais">Pais</a></li>   
+		<li class="menu"><a href="/pais">Pais</a></li>
 		<li class ="menu"><a href="/contato">Contatos</a></li>  
+		@auth
+		<li class="menu" id="dmenu"><a href="/perfil">Perfil</a></li>
+		@endauth
 		<li class ="menu"><a href="/sobre">Sobre</a></li>
 		<!--<li class="menu" id="dmenu"><a href="/carrinho">Carrinho</a></li>-->
 		
