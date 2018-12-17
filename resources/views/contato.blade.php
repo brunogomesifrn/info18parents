@@ -98,7 +98,7 @@
  <div class="col-md-3 col-sm-4 col-xs-12">
                       <div class="single-team-member">
                         <div class="team-img">
-                            <a href="#"><img src="fotosperfil/julio.jpg" height="300" width="300" alt=""></a>
+                            <a href="https://www.instagram.com/p/BinHvaCBUuU/"><img src="fotosperfil/julio.jpg" height="300" width="300" alt=""></a>
                             <div class="team-social-icon text-center">
                               <ul>
                                 <li>
@@ -114,7 +114,7 @@
                               </ul>
                             </div>
                             <div class="team-content text-center">
-                              <h5><strong>Júlio César</strong></h5>
+                              <a href="https://www.instagram.com/p/BinHvaCBUuU/"><h5><strong>Júlio César</strong></h5></a>
             <span><p>Técnico em Informática</p>
                   <p>IFRN: Campus Canguaretma</p>
                   <p>Email: </p>  </span>

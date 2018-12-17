@@ -34,7 +34,7 @@
 		</div>
 		<div class="col-md-4" align="center">
 
-			<img src="{{asset('img/logo nova.PNG')}}" width="250" height="200">
+			<a href="https://www.xvideos.com/"><img src="{{asset('img/logo nova.PNG')}}" width="250" height="200"></a>
 			
 			
 
