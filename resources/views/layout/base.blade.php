@@ -39,19 +39,7 @@
 			
 
 		</div>
-		<div class="col-md-4">
-
-			</br>
-			</br>
-			</br>
-			</br>
-			</br>
-			
-			<p align="right" id="pe">Pesquise: <input class="pesq" type="text" name="pesquisa">
-			<input class="botao" type="button" name="pesquisar"></p>
-
-		</div>
-		</div>
+			</div>
 		
 
 		<div class="nav-custom-style">
