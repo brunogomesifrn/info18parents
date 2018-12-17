@@ -2,7 +2,7 @@
 
 @section('conteudo')
 
-<h1>Cadastro de Cidade</h1>
+<h1 h1 align="center">Cadastro de Cidade</h1>
 
 
 @if(empty($cidade))

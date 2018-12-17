@@ -2,10 +2,30 @@
 
 @section('conteudo')
 
-<h1>Página do Usuário</h1>
+<h1 align="center">Página do Usuário</h1>
 
-<p><a href="/cidades">Gerenciar Cidades</a></p>
-<p><a href="/servicos">Gerenciar Serviços</a></p>
-<p><a href="/gerenciar_pais">Gerenciar Pais</a></p>
+<div class="row">
 
+	<div class="col-md-3"></div>
+
+	<div class="col-md-2">
+<p align="center"> <a input class="bnt" name="" type="submit" href="/cidades">Gerenciar Cidades</a></p>
+	</div>
+
+
+
+	<div class="col-md-2">
+
+<p align="center"> <a input class="bnt" name="" type="submit" href="/servicos">Gerenciar Serviços</a></p>
+</div>
+
+
+
+	<div class="col-md-2">
+<p align="center"> <a input class="bnt" name="" type="submit" href="/gerenciar_pais">Gerenciar Pais</a></p>
+</div>
+
+	<div class="col-md-3"></div>
+
+</div>
 @endsection
