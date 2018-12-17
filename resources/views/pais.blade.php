@@ -10,8 +10,25 @@
 		</div>
 
 		<div class="row gray-bg aaa">
+
+        
+
+    @foreach($pais as $p)
+
+        <div class="col-md-12" align="center">
+            <h5>{{$p->nome}} <a href="/detalhes/{{$p->id}}">Detalhar</a></h5>
+            <br>
+        </div>
+
+        <!--<div class="col-md-6" align="left">
+
+            <p> | <a href="/pais_editar/{{$p->id}}"">EDITAR</a> | <a href="/pais_remover/{{$p->id}}">REMOVER</a></p>
+
+        </div>-->
+@endforeach
+    
                 
-                <div id="tm-section-2" class="tm-section">
+                <!--<div id="tm-section-2" class="tm-section">
                     <div class="tm-container tm-container-wide">
                         <div class="tm-news-item">
                             
@@ -22,7 +39,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-news-container">
                                 <h2 class="tm-news-title dark-gray-text">Chevrolet da Silva Ford</h2>
                                 <p class="tm-news-text">Um pai muito legal, e que tem bastante experiência com pessoas mais velhas.</p>
-                                <!--<a href="#" class="btn tm-light-blue-bordered-btn tm-news-link">Preview</a>-->
+                                
                             </div>
                         </div>
 
@@ -52,7 +69,7 @@
                             </div>
                         </div>
                     </div>                    
-               </div>
+               </div>-->
 
            </div>
 

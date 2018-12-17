@@ -19,6 +19,12 @@ class PaiControlador extends Controller
         return view('gerenciar_pais', compact('pais'));
     }
 
+    public function exibirPais()
+    {
+        $pais = Pai::all();
+        return view('pais', compact('pais'));
+    }
+
     /**
      * Show the form for creating a new resource.
      *
@@ -74,7 +80,9 @@ class PaiControlador extends Controller
     public function show($id)
     {
         //
-        $pais = Pai::all();
+        $pai = Pai::find($id);
+        $cidades = Cidade::all();
+        return view('pai_detalhe', compact('pai', 'cidades'));
     }
 
     /**

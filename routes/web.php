@@ -70,3 +70,6 @@ Route::post('/pais_salvar', 'PaiControlador@store')->middleware('auth');
 Route::get('/pais_remover/{id}', 'PaiControlador@destroy')->middleware('auth');
 Route::get('/pais_editar/{id}', 'PaiControlador@edit')->middleware('auth');
 Route::post('/pais_atualizar/{id}', 'PaiControlador@update')->middleware('auth');
+
+Route::get('/pais', 'PaiControlador@exibirPais');
+Route::get('/detalhes/{id}', 'PaiControlador@show');
