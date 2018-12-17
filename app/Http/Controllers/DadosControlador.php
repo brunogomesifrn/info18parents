@@ -46,6 +46,9 @@ class DadosControlador extends Controller
     public function show($id)
     {
         //
+
+        
+        
     }
 
     /**

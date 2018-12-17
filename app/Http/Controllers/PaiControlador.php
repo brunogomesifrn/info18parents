@@ -74,6 +74,7 @@ class PaiControlador extends Controller
     public function show($id)
     {
         //
+        $pais = Pai::all();
     }
 
     /**
