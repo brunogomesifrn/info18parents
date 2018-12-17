@@ -8,9 +8,13 @@
 
 	<div class="col-md-3"></div>
 
-	<div class="col-md-6">
+	<div class="col-md-6" style="text-align: center;">
 
-<p align="center"><a input class="bnt" name="" type="submit" href="/pais_cadastrar">Cadastrar novo Pai</a></p>
+		<a href="/pais_cadastrar"><button type="button" class="buton btn-primary btn">
+                                {{ __('Cadastrar novo Pai') }}
+                            </button></a>
+
+<!--<p align="center"><a input class="bnt" name="" type="submit" href="/pais_cadastrar">Cadastrar novo Pai</a></p>-->
 
 <h3 align="center">Pais Cadastrados:</h3>
 @foreach($pais as $p)
