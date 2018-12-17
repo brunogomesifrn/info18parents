@@ -1,6 +1,6 @@
 @extends('layout.base')
 
-@section('pessoais')
+@section('conteudo')
 
 <h1 align="center">Dados pessoais</h1>
 	<div class="divao">

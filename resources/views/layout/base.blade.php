@@ -17,6 +17,8 @@
 	<link rel="stylesheet" type="text/css" href="{{asset('css/templatemo-style.css')}}">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<meta name="csrf-token" content="{{ csrf_token() }}" >
 	
                                        <!-- Templatemo style -->
 
@@ -57,13 +59,20 @@
 				<ul>  
 		  
 		<li class ="menu"><a href="/">Home</a> </li>  
-		<li class ="menu"><a href="/cadastro">Cadastro</a> </li>
+		<li class ="menu"><a href="/register">Cadastro</a> </li>
 		<li class ="menu"><a href="/pessoais">Dados Pessoais</a> </li> 
 		<li class="menu"><a href="/pais">Pais</a></li>   
 		<li class ="menu"><a href="/contato">Contatos</a></li>  
 		<li class ="menu"><a href="/sobre">Sobre</a></li>
-		<li class="menu" id="dmenu"><a href="/carrinho">Carrinho</a></li> 
-		<li class="menu" id="dmenu"><a id="ft" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</a></li>
+		<!--<li class="menu" id="dmenu"><a href="/carrinho">Carrinho</a></li>-->
+		
+		@guest
+		<li class="menu" id="dmenu"><a href="/login">Login</a></li>
+		@endguest
+
+		@auth
+		<li class="menu" id="dmenu"><a href="/logout">Logout</a></li>
+		@endauth
 
 
 		</div>
@@ -71,7 +80,7 @@
 		</nav>
 		
 
-<div id="id01" class="modal">
+<!--<div id="id01" class="modal">
   
   <form class="modal-content animate" action="../logingeral.php" method="post">
     <div class="imgcontainer nego">
@@ -98,16 +107,11 @@
       <span class="psw">Forgot <a href="#">password?</a></span>
     </div>
   </form>
-</div>
+</div>-->
 
 
-@yield('index')
-@yield('cadastro')
-@yield('pessoais')
-@yield('pais')
-@yield('contatos')
-@yield('sobre')
-@yield('carrinho')
+@yield('conteudo')
+
 
 
 <div class="foot divao">

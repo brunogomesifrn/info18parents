@@ -1,6 +1,6 @@
 @extends('layout.base')
 
-@section('index')
+@section('conteudo')
 
 
 <div class="slides">
@@ -15,13 +15,13 @@
 	  <div class="">
 	  	<div class="carousel-inner" role="listbox">
 		    <div class="carousel-item active">
-		      <img class="d-block img-fluid embacao" src="{{asset('img/1.JPG')}}" alt="First slide">
+		      <img class="d-block img-fluid embacao" src="{{asset('img/1.JPG')}}" alt="First slide" width="100%">
 		    </div>
 		    <div class="carousel-item">
-		      <img class="d-block img-fluid embacao" src="{{asset('img/2.JPG')}}" alt="Second slide">
+		      <img class="d-block img-fluid embacao" src="{{asset('img/2.JPG')}}" alt="Second slide" width="100%">
 		    </div>
 		    <div class="carousel-item">
-		      <img class="d-block img-fluid embacao" src="{{asset('img/3.JPG')}}" alt="Third slide">
+		      <img class="d-block img-fluid embacao" src="{{asset('img/3.JPG')}}" alt="Third slide" width="100%">
 		    </div>
 	  	</div>
 	  </div>
