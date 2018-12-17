@@ -99,9 +99,27 @@ class PaiControlador extends Controller
     public function update(Request $request, $id)
     {
         $nome = $request->input('nome');
+        $cpf = $request->input('cpf');
+        $rg = $request->input('rg');
+        $email = $request->input('email');
+        $telefone = $request->input('telefone');
+        $crp = $request->input('crp');
+        $id_cidade = $request->input('cidade');
+
+
+
 
         $pai = Pai::find($id);
         $pai->nome = $nome;
+        $pai->cpf = $cpf;
+        $pai->rg = $rg;
+        $pai->email = $email;
+        $pai->telefone = $telefone;
+        $pai->crp = $crp;
+        $pai->id_cidade = $id_cidade;
+        $pai->id_user = 1;
+
+
         $pai->save();
 
         return redirect('/gerenciar_pais');
