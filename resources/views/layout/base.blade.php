@@ -106,7 +106,10 @@
 @yield('conteudo')
 
 
-
+<br>
+<br>
+<br>
+<br>
 <div class="foot divao" style="position: fixed; bottom: 0; width: 100%;">
 	<footer align="center">
 		
