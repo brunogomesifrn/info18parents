@@ -23,7 +23,7 @@
 <div class="row">
 
 	<div class="col-md-6" align="right">
-		<h5>{{$c->nome}}</h5>
+		<h5>{{$p->nome}}</h5>
 	</div>
 
 	<div class="col-md-6" align="left">
