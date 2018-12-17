@@ -35,6 +35,10 @@
 		@endforeach
 	</select></p>
 	<input type="submit" value="Cadastrar">
+	<br>
+	<br>
+	<br>
+	<br>
 
 			</div>
 		</div>
@@ -61,6 +65,10 @@
 
 
 	<input type="submit" value="Atualizar" >
+	<br>
+	<br>
+	<br>
+	<br>
 	@endif
 
 </form>
