@@ -47,10 +47,15 @@
 				<ul>  
 		  
 		<li class ="menu"><a href="/">Home</a> </li>  
+		@guest
 		<li class ="menu"><a href="/register">Cadastro</a> </li>
+		@endguest
 		<li class ="menu"><a href="/pessoais">Dados Pessoais</a> </li> 
-		<li class="menu"><a href="/pais">Pais</a></li>   
+		<li class="menu"><a href="/pais">Pais</a></li>
 		<li class ="menu"><a href="/contato">Contatos</a></li>  
+		@auth
+		<li class="menu" id="dmenu"><a href="/perfil">Perfil</a></li>
+		@endauth
 		<li class ="menu"><a href="/sobre">Sobre</a></li>
 		<!--<li class="menu" id="dmenu"><a href="/carrinho">Carrinho</a></li>-->
 		
