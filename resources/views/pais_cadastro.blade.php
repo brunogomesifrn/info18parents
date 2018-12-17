@@ -51,7 +51,11 @@
 	<p>CRP do Pai: <input type="text" name="crp" value="{{$pai->crp}}"></p>
 	<p>Cidade de atendimento: <select name="cidade">
 		@foreach($cidades as $c)
-			<option value="{{$c->id}}">{{$c->nome}}</option>
+			@if($c->id == $pai->id_cidade)
+				<option value="{{$c->id}}" selected>{{$c->nome}}</option>
+			@else
+				<option value="{{$c->id}}">{{$c->nome}}</option>
+			@endif
 		@endforeach
 	</select></p>
 
